@@ -1,0 +1,20 @@
+
+{
+    "region" : "eu-west-1",
+    "profile" : "KocYasaRoot",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "AWSLambdaAPI_v1",
+    "package-type"  : "Zip",
+    "function-handler" : "AWSLambda_v1",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::871210983552:role/lambda_exec_AWSLambdaAPI_v1",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
