@@ -25,7 +25,8 @@ namespace AWSLambda_v1.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)],
+                Guid = Guid.NewGuid().ToString()
             })
             .ToArray();
         }
